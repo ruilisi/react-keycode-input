@@ -4493,7 +4493,7 @@ lodash.uniq@^4.5.0:
   version "4.17.5"
   resolved "http://registry.npm.taobao.org/lodash/download/lodash-4.17.5.tgz#99a92d65c0272debe8c96b6057bc8fbfa3bed511"
 
-lodash@^4.16.5, lodash@^4.17.5:
+lodash@^4.16.5, lodash@^4.17.10, lodash@^4.17.5:
   version "4.17.10"
   resolved "http://registry.npm.taobao.org/lodash/download/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
 
@@ -6120,6 +6120,12 @@ react-dom@^16.3.2:
 react-error-overlay@^4.0.0:
   version "4.0.0"
   resolved "http://registry.npm.taobao.org/react-error-overlay/download/react-error-overlay-4.0.0.tgz#d198408a85b4070937a98667f500c832f86bd5d4"
+
+react-keycode-input@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.npm.taobao.org/react-keycode-input/download/react-keycode-input-1.0.0.tgz#e74a7bf242f04a64e0e5eeb16b4c53d02513401c"
+  dependencies:
+    lodash "^4.17.10"
 
 react-lazy-load@^3.0.12:
   version "3.0.13"
