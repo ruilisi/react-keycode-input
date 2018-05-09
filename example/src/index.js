@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import VerificationInput from 'react-verification-code-input'
-import VerificationInputModal from 'react-verification-code-input/modal'
+import KeycodeInput from 'react-keycode-input'
+import KeycodeInputModal from 'react-keycode-input/modal'
 import 'antd/dist/antd.css'
 import { Button, message } from 'antd'
 
@@ -21,7 +21,7 @@ class Demo extends React.Component {
 
   render() {
     return <div>
-      <VerificationInput
+      <KeycodeInput
         codeLength={5}
         initialSeconds={30}
         onlyNumber={false}
@@ -33,7 +33,7 @@ class Demo extends React.Component {
       <div style={{ textAlign: 'center' }}>
         <Button type='primary' onClick={() => this.setState({ modalOpen: true })}>Open Modal</Button>
       </div>
-      <VerificationInputModal
+      <KeycodeInputModal
         lang='zh'
         mobile='13770000000'
         visible={this.state.modalOpen}
