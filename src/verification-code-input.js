@@ -125,7 +125,7 @@ export default class VerificationCodeInput extends Component {
       <div style={{ textAlign: 'center', fontSize: 12, color: '#aaa' }}>{TR('Verification code has been sent to {value}').replace('{value}', this.props.mobile)}</div>
       <div style={{ textAlign: 'center', margin: 10 }}>
         {
-          _.map(_.range(this.props.codeLength), (v, i) => <input type='text' key={i} onChange={this.inputChange(i)}
+          _.map(_.range(this.props.codeLength), (v, i) => <input key={i} onChange={this.inputChange(i)}
             onKeyDown={this.inputKeyDown(i)} value={this.state.codes[i]}
             ref={el => this.updateInputRefs(el, i)}
             style={{ width: 40, height: 40, margin: 8, display: 'inline-block', textAlign: 'center', fontSize: 20 }} />)
