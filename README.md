@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <img src="https://github.com/paiyou-network/react-keycode-input/raw/master/screenshot/screen.png" width="300px" />
 
 **react-keycode-input** is a cool react component for inputing many kinds of codes

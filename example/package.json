@@ -6,6 +6,7 @@
     "antd": "^3.5.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
+    "react-keycode-input": "^1.0.0",
     "react-scripts": "1.1.4"
   },
   "scripts": {
