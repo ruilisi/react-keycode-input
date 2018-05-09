@@ -1,0 +1,46 @@
+{
+  "name": "react-verification-input",
+  "version": "1.0.0",
+  "description": "A cool component for inputing verification code",
+  "main": "index.js",
+  "module": "es/index.js",
+  "scripts": {
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rallets-network/react-verification-input.git"
+  },
+  "keywords": [
+    "verification",
+    "code",
+    "input",
+    "mobile",
+    "react"
+  ],
+  "authors": [
+    "Yicheng Zhou",
+    "Rallets"
+  ],
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/rallets-network/react-verification-input/issues"
+  },
+  "homepage": "https://github.com/rallets-network/react-verification-input",
+  "dependencies": {
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-dev-expression": "^0.2.1",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-imports": "^1.5.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.13",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "react": "^16.3.2"
+  }
+}
