@@ -9,7 +9,7 @@ const translations = {
   'Resend in {value}s': '{value}秒后重新发送'
 }
 
-export default class VerificationCodeInput extends Component {
+export default class VerificationInput extends Component {
 
   static propTypes = {
     lang: PropTypes.string,

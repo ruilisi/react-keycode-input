@@ -1,1 +1,1 @@
-module.exports = require('./verification-code-input')
+module.exports = require('./verification-input')
