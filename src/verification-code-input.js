@@ -13,8 +13,10 @@ export default class VerificationCodeInput extends Component {
 
   static propTypes = {
     lang: PropTypes.string,
+    mobile: PropTypes.string,
     initialSeconds: PropTypes.number,
     codeLength: PropTypes.number,
+    style: PropTypes.object,
     visible: PropTypes.bool,
     onlyNumber: PropTypes.bool,
     onResend: PropTypes.func,
@@ -25,7 +27,8 @@ export default class VerificationCodeInput extends Component {
     codeLength: 4,
     initialSeconds: 60,
     onlyNumber: true,
-    lang: 'en'
+    lang: 'en',
+    style: {}
   }
 
   inputs = []
@@ -120,7 +123,7 @@ export default class VerificationCodeInput extends Component {
 
   render () {
     const TR = this.TR
-    return <div>
+    return <div style={this.props.style}>
       <div style={{ textAlign: 'center', fontSize: 14 }}>{TR('Mobile verification code')}</div>
       <div style={{ textAlign: 'center', fontSize: 12, color: '#aaa' }}>{TR('Verification code has been sent to {value}').replace('{value}', this.props.mobile)}</div>
       <div style={{ textAlign: 'center', margin: 10 }}>

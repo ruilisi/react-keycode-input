@@ -7,7 +7,9 @@ export default class VerificationCodeInputModal extends Component {
 
   static propTypes = {
     initialSeconds: PropTypes.number,
+    mobile: PropTypes.string,
     codeLength: PropTypes.number,
+    style: PropTypes.object,
     width: PropTypes.number,
     visible: PropTypes.bool,
     onlyNumber: PropTypes.bool,
@@ -21,13 +23,15 @@ export default class VerificationCodeInputModal extends Component {
     initialSeconds: 60,
     onlyNumber: true,
     lang: 'en',
+    style: {},
     width: 330
   }
 
   render () {
-    const { initialSeconds, codeLength, width, visible, onlyNumber, onResend, onComplete, onCancel, lang } = this.props
+    const { initialSeconds, codeLength, width, visible, onlyNumber, onResend, onComplete, onCancel, lang, style, mobile } = this.props
     return <Modal
       maskClosable={false}
+      style={style}
       footer={null}
       title={null}
       onCancel={onCancel}
@@ -41,6 +45,7 @@ export default class VerificationCodeInputModal extends Component {
         onComplete={onComplete}
         visible={visible}
         lang={lang}
+        mobile={mobile}
       />
     </Modal>
   }
