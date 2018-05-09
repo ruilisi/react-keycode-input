@@ -1,7 +1,7 @@
 {
-  "name": "react-verification-input",
+  "name": "react-keycode-input",
   "version": "1.0.0",
-  "description": "A cool component for inputing verification code",
+  "description": "A cool component for inputing many kinds of codes",
   "main": "index.js",
   "module": "es/index.js",
   "scripts": {
@@ -9,11 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rallets-network/react-verification-input.git"
+    "url": "https://github.com/rallets-network/react-keycode-input.git"
   },
   "keywords": [
     "verification",
-    "code",
+    "keycode",
     "input",
     "mobile",
     "react"
@@ -24,9 +24,9 @@
   ],
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/rallets-network/react-verification-input/issues"
+    "url": "https://github.com/rallets-network/react-keycode-input/issues"
   },
-  "homepage": "https://github.com/rallets-network/react-verification-input",
+  "homepage": "https://github.com/rallets-network/react-keycode-input",
   "dependencies": {
     "lodash": "^4.17.10"
   },

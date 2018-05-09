@@ -1,21 +1,21 @@
-<img src="https://github.com/rallets-network/react-verification-input/raw/master/screenshot/screen.png" width="300px" />
+<img src="https://github.com/rallets-network/react-keycode-input/raw/master/screenshot/screen.png" width="300px" />
 
-**react-verification-input** is a cool react component for inputing verification code
+**react-keycode-input** is a cool react component for inputing many kinds of codes
 
 ### Installation
 
 ```
-npm install --save react-verification-input
+npm install --save react-keycode-input
 ```
 
 ### Usage
 
 ```js
-import VerificationInput from 'react-verification-input'
+import KeycodeInput from 'react-keycode-input'
 
 class Demo extends React.Component {
   render () {
-    return <VerificationInput />
+    return <KeycodeInput />
   }
 }
 ```
@@ -23,7 +23,7 @@ class Demo extends React.Component {
 You can also use the modal version of this component by
 
 ```js
-import VerificationInput from 'react-verification-input/modal'
+import KeycodeInputModal from 'react-keycode-input/modal'
 ```
 
 It utilizes ant design Modal component, so be sure you have `antd` installed
@@ -31,4 +31,4 @@ It utilizes ant design Modal component, so be sure you have `antd` installed
 
 ### Example
 
-An example is provided in [example](https://github.com/rallets-network/react-verification-input/tree/master/example)
+An example is provided in [example](https://github.com/rallets-network/react-keycode-input/tree/master/example)
