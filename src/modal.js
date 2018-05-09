@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types'
 import React, { Component } from 'react'
 import { Modal } from 'antd'
-import VerificationCodeInput from './verification-code-input.js'
+import VerificationInput from './verification-input.js'
 
-export default class VerificationCodeInputModal extends Component {
+export default class VerificationInputModal extends Component {
 
   static propTypes = {
     initialSeconds: PropTypes.number,
@@ -37,7 +37,7 @@ export default class VerificationCodeInputModal extends Component {
       onCancel={onCancel}
       width={width}
       visible={visible}>
-      <VerificationCodeInput
+      <VerificationInput
         initialSeconds={initialSeconds}
         codeLength={codeLength}
         onlyNumber={onlyNumber}
